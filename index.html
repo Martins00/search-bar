@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search Bar</title>
+</head>
+<body>
+    <div id="container">
+       <input type="text" id="search" placeholder="WHO'S THE GOAT?" oninput="searchBar(this.value)"> 
+        <p id="result"></p> <br>
+
+       <label for="search bar" id="label">SELECT A COUNTRY TO SEE SOME OF THEIR GREATEST PLAYERS</label> <br>
+       <select id="selector" name="" onchange="selector(this.value)">
+            <option value="" id="option">Choose a country</option>
+           <option value="Brazil" id="option">Brazil</option>
+           <option value="Spain" id="option">Spain</option>
+           <option value="Argentina" id="option">Argentina</option>
+           <option value="Chile" id="option">Chile</option>
+           <option value="France" id="option">France</option>
+           <option value="Norway" id="option">Norway</option>
+           <option value="Portugal" id="option">Portugal</option>
+           <!-- <option value="Inter Milan" id="option">Inter Milan</option>
+           <option value="Napoli" id="option">Napoli</option>
+           <option value="Real Madrid" id="option">Real Madrid</option>
+           <option value="Barca" id="option">Barca</option>
+           <option value="PSG" id="option">PSG</option>
+           <option value="Roma" id="option">Roma</option>
+           <option value="Dortmund" id="option">Dortmund</option>
+           <option value="Chelsea" id="option">Chelsea</option>
+           <option value="Manchester United" id="option">Manchester United</option> -->
+       </select>   <br>
+       <p id="select"></p>  
+    </div>   
+</body>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background-color: black; */
+    box-sizing: border-box;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20%;
+}
+
+#container input{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#result{
+    margin: 30px;
+    display: none;
+    /* color: white; */
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+#select{
+    margin: 30px;
+    display: none;
+    /* color: white; */
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+#selector{
+    margin: 30px;
+}
+
