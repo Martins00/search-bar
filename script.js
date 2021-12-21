@@ -1,29 +1,29 @@
 
 // Search bar with an array of strings
-//     const searchBar = (value) => {
+    const searchBar = (value) => {
 
-//     const filteredPlayers = playerNames.filter(playerName =>  playerName.toLowerCase().includes(value.toLowerCase()));
+    const filteredPlayers = playerNamess.filter(playerName =>  playerName.toLowerCase().includes(value.toLowerCase()));
 
-//     if (filteredPlayers.length > 0 && value.length > 0) {
-//         document.getElementById("result").innerText = filteredPlayers.join(" , ");
-//         document.getElementById("result").style.display = "block";
-//     } else {
-//         document.getElementById("result").style.display = "none";
-//     }
-//     console.log(filteredPlayers);
-// }
+    if (filteredPlayers.length > 0 && value.length > 0) {
+        document.getElementById("result").innerText = filteredPlayers.join(" , ");
+        document.getElementById("result").style.display = "block";
+    } else {
+        document.getElementById("result").style.display = "none";
+    }
+    console.log(filteredPlayers);
+}
 
 
 // Search bar with an array of Objects
-const searchBar = (value) => {
+const searchPlayer = (value) => {
 
     const filteredPlayers = playerNames.filter(playerName =>  playerName.name.toLowerCase().includes(value.toLowerCase()));
 
     if (filteredPlayers.length > 0 && value.length > 0) {
-        document.getElementById("result").innerText = filteredPlayers.map(player => player.name).join(" , ")
-        document.getElementById("result").style.display = "block";
+        document.getElementById("display").innerText = filteredPlayers.map(player => player.name).join(" , ")
+        document.getElementById("display").style.display = "block";
     } else {
-        document.getElementById("result").style.display = "none";
+        document.getElementById("display").style.display = "none";
     }  
     console.log(filteredPlayers);
 }

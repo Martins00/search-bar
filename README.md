@@ -10,3 +10,7 @@ First, I wrote a function that makes you search for a player name by filtering t
 After I got this, I decided to step it up a bit by changing the array of strings to an array of objects. I was ble to make it work too.
 
 Currently, I am trying to write a function with which you can select a the country using the htnl select tag, and it displays the names of players from that country.
+
+AOO -  Array of objects
+
+AOS - Array of strings

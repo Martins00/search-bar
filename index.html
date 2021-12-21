@@ -9,28 +9,22 @@
 </head>
 <body>
     <div id="container">
-       <input type="text" id="search" placeholder="WHO'S THE GOAT?" oninput="searchBar(this.value)"> 
+       <input type="text" id="search" placeholder="WHO'S THE GOAT? - AOS" oninput="searchBar(this.value)"> 
         <p id="result"></p> <br>
+
+        <input type="text" id="searchPlayer" placeholder="WHO'S THE GOAT? - AOO" oninput="searchPlayer(this.value)"> 
+        <p id="display"></p> <br>
 
        <label for="search bar" id="label">SELECT A COUNTRY TO SEE SOME OF THEIR GREATEST PLAYERS</label> <br>
        <select id="selector" name="" onchange="selector(this.value)">
-            <option value="" id="option">Choose a country</option>
-           <option value="Brazil" id="option">Brazil</option>
-           <option value="Spain" id="option">Spain</option>
-           <option value="Argentina" id="option">Argentina</option>
-           <option value="Chile" id="option">Chile</option>
-           <option value="France" id="option">France</option>
-           <option value="Norway" id="option">Norway</option>
-           <option value="Portugal" id="option">Portugal</option>
-           <!-- <option value="Inter Milan" id="option">Inter Milan</option>
-           <option value="Napoli" id="option">Napoli</option>
-           <option value="Real Madrid" id="option">Real Madrid</option>
-           <option value="Barca" id="option">Barca</option>
-           <option value="PSG" id="option">PSG</option>
-           <option value="Roma" id="option">Roma</option>
-           <option value="Dortmund" id="option">Dortmund</option>
-           <option value="Chelsea" id="option">Chelsea</option>
-           <option value="Manchester United" id="option">Manchester United</option> -->
+            <option value="" id="option">Select a country</option>
+           <option value="Brazil" class="option">Brazil</option>
+           <option value="Spain" class="option">Spain</option>
+           <option value="Argentina" class="option">Argentina</option>
+           <option value="Chile" class="option">Chile</option>
+           <option value="France" class="option">France</option>
+           <option value="Norway" class="option">Norway</option>
+           <option value="Portugal" class="option">Portugal</option>
        </select>   <br>
        <p id="select"></p>  
     </div>   

@@ -92,5 +92,5 @@ const playerNames = [
     
 ]
 
-// const playerNames = ["Pedro", "Ronaldo", "Penaldo", "Bruno","Neto" ]
+const playerNamess = ["Pedro", "Ronaldo", "Penaldo", "Bruno","Neto", "Messi", "Bruno", "Neymar", "Mbappe", "Vinicius", "Millitao"]
 

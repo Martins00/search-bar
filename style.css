@@ -24,10 +24,13 @@ body {
     margin-bottom: 20px;
 }
 
+#searchPlayer {
+    margin-bottom: 20px;
+}
+
 #result{
     margin: 30px;
     display: none;
-    /* color: white; */
     font-size: 15px;
     text-transform: uppercase; 
 }
@@ -35,7 +38,13 @@ body {
 #select{
     margin: 30px;
     display: none;
-    /* color: white; */
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+#display{
+    margin: 30px;
+    display: none;
     font-size: 15px;
     text-transform: uppercase; 
 }
