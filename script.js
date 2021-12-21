@@ -36,7 +36,7 @@ const selector = (value) => {
     const selectPlayer = playerNames.filter(playerName => playerName.country.includes(value));
 
     if (selector.length > 0 && value.length > 0){
-        document.getElementById("select").innerText = playerNames.map(playerName => playerName.name).join(" , ")
+        document.getElementById("select").innerText = selectPlayer.map(playerName => playerName.name).join(" , ")
         document.getElementById("select").style.display = "block"
     } else{
         document.getElementById("select").style.display = "none"
